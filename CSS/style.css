@@ -86,7 +86,17 @@ article:nth-child(even) {
 
 article:nth-child(1) h2::before {
     content: "New  ";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
   }
   article:nth-child(2) h2::before {
     content: "New  ";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  article:nth-child(odd) {
+    background: rgb(242, 243, 239);
   }
