@@ -80,3 +80,13 @@ article img {
     object-fit: cover;
 }
 
+article:nth-child(even) {
+    background: rgb(226, 237, 237);
+  }
+
+article:nth-child(1) h2::before {
+    content: "New  ";
+  }
+  article:nth-child(2) h2::before {
+    content: "New  ";
+  }
