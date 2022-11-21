@@ -87,6 +87,6 @@ article:nth-child(even) {
 article:nth-child(1) h2::before {
     content: "New  ";
   }
-  article:nth-child(2ckground) h2::before {
+  article:nth-child(2) h2::before {
     content: "New  ";
   }
